@@ -18,6 +18,12 @@ const routes = [
     component: () => import('../views/LoginView.vue')
   },
   {
+    path: '/privacy',
+    name: 'privacy',
+    component: () => import('../views/PrivacyView.vue')
+
+  },
+  {
     path: '/home',
     name: 'home',
     component: () => import('../views/HomeView.vue')
